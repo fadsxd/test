@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+#calendar {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  /* Personalización del color y grosor de las líneas */
+.fc .fc-daygrid-day-frame {
+    border: 2px solid #4CAF50; /* Verde */
+  }
+  
+//   .fc .fc-daygrid-day {
+//     border: 2px solid #FF5722; /* Naranja */
+//   }
+
+
+
+.even-date {
+    background-color: #FFD700; /* Amarillo dorado */
+  }
+  
+
+//   .fc-daygrid-day.fc-day-other {
+//     opacity: 0.3; /* Hace que los días de otros meses sean más transparentes */
+//     pointer-events: none; /* Evita la interacción con estos días */
+//     background-color: transparent; /* Elimina el color de fondo */
+//   }
+
+  .fc-daygrid-day.fc-day-other {
+    opacity: 0.3; /* Hace que los días de otros meses sean más transparentes */
+    pointer-events: none; /* Evita la interacción con estos días */
+    background-color: transparent; /* Elimina el color de fondo */
+  }
